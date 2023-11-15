@@ -1,32 +1,38 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: #FCEDDA;
-    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
 }
-div img{
-    height: 150px;
-    width: 220px; 
-   margin-top: 10px;
-   margin-left: 10px;
-}
-.parent{
+
+.parent {
     display: flex;
- 
     justify-content: space-evenly;
 }
+
 .parent div {
- margin: 10px;
- width: 240px;
- height: 170px;
- margin-top: 70px;
+    margin: 10px;
+    width: 240px;
+    height: 170px;
+    margin-top: 70px;
 }
-header{
-    background-color:  #EE4E34;
+
+header {
+    background-color: #0066ff89;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -35,50 +41,84 @@ header{
     margin-top: 10px;
     border-radius: 10px;
 }
-h1{
+
+h1 {
     margin-top: 8px;
     color: #FCEDDA;
-    display: flex; 
+    display: flex;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.he{
-color: black;
-text-align: center;
-margin-top: 50px;
+
+.title {
+    color: black;
+    text-align: center;
+    margin-top: 130px;
 }
-#div1 h2{
+
+#div1 h2 {
     height: 40px;
     width: 150px;
-    background-color:#EE4E34;
+    background-color: #FCEDDA;
+    border: 2px solid black;
     margin-top: 30px;
+
 }
-h2{
-    text-align: center;
-    color: #FCEDDA;
-    padding-top: 10px;
-}
-#div2{
-    height: 170px;
-    width: 250px; 
+
+#drop {
+    height: 180px;
+    width: 280px;
     background-color: #FCEDDA;
     margin-top: 40px;
-    border: 2px solid #EE4E34;
+    border: 2px solid #000000;
     border-radius: 10px;
     text-align: center;
     font-size: 100px;
 }
-#para{
-    padding: 30px;
-    
+
+h2 {
+    text-align: center;
+    color:  #0066ff89;
+    padding-top: 10px;
 }
 
+div img {
+    height: 180px;
+    width: 280px;
+    border-radius: 10px;
+}
 
+#para {
+    padding: 30px;
+}
 
+#flags{
+z-index: 10;
+position: absolute;
+top:-15vmin;
+left: 2.5vmin;
 
-
+}
+#flags2{
+    position: absolute;
+    top:-14.5vmin;
+    left: 58.5vmin;
+    
+    }
+#flags3{
+        position: absolute;
+        top:-15vmin;
+        left: 115vmin;
+    }
+    #flags4{
+        position: absolute;
+        top:-16vmin;
+        left: 170vmin;
+        width: 410px;
+        transform: rotate(-1deg);
+    }
 
